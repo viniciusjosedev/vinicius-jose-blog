@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://vinicius.vinion.dev
 languageCode: en-us
 title: Vinicius José
 copyright: "© [Vinicius José](https://github.com/viniciusjosedev/vinicius-jose-blog) 2025"
@@ -29,41 +29,54 @@ languages:
         - name: Posts
           url: posts
           weight: 5
+    params:
+      profileMode:
+        enabled: true
+        title: "Vinicius José"
+        subtitle: "Welcome to my personal blog about software development and technology."
+        imageUrl: "https://avatars.githubusercontent.com/u/113393364?v=4"
+        imageWidth: 200
+        imageHeight: 200
+        imageTitle: "Vinicius José"
+        buttons:
+          - name: Posts
+            url: posts
+
+  pt:
+    languageName: "Português"
+    weight: 2
+    title: Vinicius José
+    taxonomies:
+      category: categorias
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Posts
+          url: posts
+          weight: 5
+    params:
+      profileMode:
+        enabled: true
+        title: "Vinicius José"
+        subtitle: "Bem-vindo ao meu blog pessoal sobre desenvolvimento de software e tecnologia."
+        imageUrl: "https://avatars.githubusercontent.com/u/113393364?v=4"
+        imageWidth: 200
+        imageHeight: 200
+        imageTitle: "Vinicius José"
+        buttons:
+          - name: Posts
+            url: posts
 
 params:
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: "Vinicius José"
+  description: "Welcome to my personal blog about software development and technology."
 
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
   comments: true
-
-  homeInfoParams:
-    Title: "PaperMod's Demo"
-    Content: >
-      👋 Welcome to demo page of Hugo's theme PaperMod!
-
-      - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
-
-      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
-
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
-
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
 
   socialIcons:
     - name: x

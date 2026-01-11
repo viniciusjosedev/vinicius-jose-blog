@@ -1,7 +1,7 @@
 ---
 date: '2026-01-04T00:10:51-03:00'
-draft: true
-title: 'My First Post'
+draft: false
+title: 'First Post: About me!'
 ---
 
 ## Introduction
