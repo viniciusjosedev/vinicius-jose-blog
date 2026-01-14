@@ -1,4 +1,4 @@
-baseURL: https://vinicius.vinion.dev
+baseURL: https://vinicius-jose-blog.web.app
 languageCode: en-us
 title: Vinicius José
 copyright: "© [Vinicius José](https://github.com/viniciusjosedev/vinicius-jose-blog) 2025"
@@ -33,7 +33,9 @@ languages:
       profileMode:
         enabled: true
         title: "Vinicius José"
-        subtitle: "Welcome to my personal blog about software development and technology."
+        subtitle: >
+          "Welcome to my personal blog about software development and technology. I am a developer
+          passionate about creating innovative solutions and sharing knowledge with the community."
         imageUrl: "https://avatars.githubusercontent.com/u/113393364?v=4"
         imageWidth: 200
         imageHeight: 200
@@ -59,7 +61,9 @@ languages:
       profileMode:
         enabled: true
         title: "Vinicius José"
-        subtitle: "Bem-vindo ao meu blog pessoal sobre desenvolvimento de software e tecnologia."
+        subtitle: >
+          "Bem-vindo ao meu blog pessoal sobre desenvolvimento de software e tecnologia. Eu sou um desenvolvedor
+          apaixonado por criar soluções inovadoras e compartilhar conhecimento com a comunidade."
         imageUrl: "https://avatars.githubusercontent.com/u/113393364?v=4"
         imageWidth: 200
         imageHeight: 200
@@ -83,3 +87,5 @@ params:
       url: "https://x.com/viniciusjosedev"
     - name: github
       url: "https://github.com/viniciusjosedev"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/viniciusjosedev"
